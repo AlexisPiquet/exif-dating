@@ -76,13 +76,13 @@ const app = yargs(argv)
               )
 
               console.log('Date found :', date)
-              fs.moveSync(filePath, destPath)
+              await fs.move(filePath, destPath)
 
             } else {
 
               console.log('No date found')
               const destPath = path.resolve(sourcePath, 'nodate', file)
-              fs.moveSync(filePath, destPath)
+              await fs.move(filePath, destPath)
 
             }
 

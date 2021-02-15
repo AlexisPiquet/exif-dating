@@ -1,4 +1,4 @@
-# exif-dating
+# Exif-dating
 
 Dating files with Exif data and folderize them
 

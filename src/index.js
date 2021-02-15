@@ -40,8 +40,6 @@ const app = yargs(argv)
 
       const dir = await fs.readdir(sourcePath)
 
-      console.log(dir)
-
       if (dir.length > 0) {
 
         for (const file of dir) {

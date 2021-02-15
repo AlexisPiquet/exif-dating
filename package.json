@@ -1,0 +1,20 @@
+{
+  "name": "exif-dating",
+  "version": "1.0.0",
+  "description": "Dating files with Exif data and sort them in dated folders",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js ./source --month --day"
+  },
+  "bin": {
+    "exif-dating": "src/index.js"
+  },
+  "keywords": [],
+  "author": "Steeve Ortuani",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "simple-exiftool": "^1.1.0",
+    "yargs": "^16.2.0"
+  }
+}

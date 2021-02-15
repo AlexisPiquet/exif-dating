@@ -13,7 +13,7 @@ const argv = process.argv.slice(2)
 const app = yargs(argv)
   .command(
     '$0 <path>',
-    'Date files in <path> folder with Exif data and sort them in dated folders',
+    'Date files in <path> folder with Exif data and folderize them',
     () => {
       return yargs
         .option('month', {

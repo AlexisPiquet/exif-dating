@@ -1,7 +1,7 @@
 {
   "name": "exif-dating",
   "version": "1.0.0",
-  "description": "Dating files with Exif data and sort them in dated folders",
+  "description": "Dating files with Exif data and folderize them",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js ./source --month --day"

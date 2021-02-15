@@ -38,7 +38,6 @@ const app = yargs(argv)
         throw Error('Path does not exist...')
       }
 
-      // const dir = await fs.opendir(sourcePath)
       const dir = await fs.readdir(sourcePath)
 
       console.log(dir)

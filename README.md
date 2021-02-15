@@ -45,7 +45,7 @@ Go to the folder where you want exif-dating installed, then :
 git clone https://github.com/ripso/exif-dating.git
 cd exif-dating
 npm install
-npm link
+sudo npm link
 ```
 
 ## Help

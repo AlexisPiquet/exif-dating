@@ -50,7 +50,7 @@ npm link
 
 ## Help
 
-```bash
+```
 exif-dating <path>
 
 Date files in <path> folder with Exif data and sort them in dated folders
@@ -67,7 +67,7 @@ Options:
 
 You have a folder <__sourceFolder__> which contains files you want to folderize by date.
 In a CLI, type :
-```bash
-exif-dating <__sourceFolder__> [options]
+```
+exif-dating <sourceFolder> [options]
 ```
 And it's done ! :tada:

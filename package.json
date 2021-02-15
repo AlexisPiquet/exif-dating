@@ -16,5 +16,25 @@
     "fs-extra": "^9.1.0",
     "simple-exiftool": "^1.1.0",
     "yargs": "^16.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ripso/exif-dating.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ripso/exif-dating/issues"
+  },
+  "keywords": [
+    "exif",
+    "metadata",
+    "sort",
+    "sorting",
+    "folderize",
+    "date",
+    "dating",
+    "exiftool",
+    "jpg",
+    "image",
+    "picture"
+  ]
 }

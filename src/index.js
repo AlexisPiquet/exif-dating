@@ -73,8 +73,8 @@ const app = yargs(argv)
                 sourcePath,
                 'dated',
                 String(date.getUTCFullYear()),
-                argv.month ? String(date.getUTCMonth() + 1) : '',
-                argv.day ? String(date.getUTCDate()) : '',
+                argv.month ? ('0' + String(date.getUTCMonth() + 1)).slice(-2) : '',
+                argv.day ? ('0' + String(date.getUTCDate())).slice(-2) : '',
                 file
               )
 
